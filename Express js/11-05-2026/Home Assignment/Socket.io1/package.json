@@ -1,0 +1,28 @@
+{
+  "name": "scoket.io",
+  "version": "1.0.0",
+  "description": "React + Socket.IO WhatsApp-like chat app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently -k \"npm run server\" \"vite\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^9.1.2",
+    "vite": "^5.4.10"
+  }
+}
